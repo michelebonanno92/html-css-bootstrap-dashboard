@@ -1,11 +1,38 @@
+/* GENERAL */
 
 :root {
-    /* --height-spotify-bottom: 100px ;
-    --widht-sidebar: 200px ;
-    --color-spotify-center: #141922;
-    --color-sidebar :#000000;
-    --color-hr: #B4FF30 ;
-    --opacity:0.5; */
+    --height-header: 100px ;
+    --whidth-aside: 300px;
+}
+
+  #header-header{
+    height:var(--height-header);
+  }
+
+  #main-main{
+    height:calc( 100vh - var(--height-header));
   }
  
+
+  aside{
+    width: var(--whidth-aside);
+  }
+
+  section{
+    width: calc(100% - var(--whidth-aside));
+  }
+
+
+  .red{
+    background-color: red;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+ .green{
+  background-color: green;
+ }
+ .blue{
+  background-color: blue;
+ }
 
