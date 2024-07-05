@@ -2,7 +2,8 @@
 
 :root {
     --height-header: 100px ;
-    --whidth-aside: 300px;
+    --whidth-aside: 150px;
+    --section-top-height: 100px
 }
 
   #header-header{
@@ -22,17 +23,22 @@
     width: calc(100% - var(--whidth-aside));
   }
 
+  .section-top{
+    height: var(--section-top-height);
+  }
 
-  .red{
-    background-color: red;
+  .section-bottom{
+    height: calc(100vh - var(--section-top-height) - var(--height-header));
   }
-  .yellow{
-    background-color: yellow;
+  
+  .section-bottom-right , .section-bottom-left{
+    height: 100%;
   }
- .green{
-  background-color: green;
- }
- .blue{
-  background-color: blue;
- }
+
+.carda{
+  height:50%;
+}
+
+
+
 
