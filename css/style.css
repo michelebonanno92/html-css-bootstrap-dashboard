@@ -29,15 +29,23 @@
 
   .section-bottom{
     height: calc(100vh - var(--section-top-height) - var(--height-header));
-  }
-  
-  .section-bottom-right , .section-bottom-left{
-    height: 100%;
+    overflow-y: auto;
   }
 
-.carda{
-  height:50%;
+  .section-bottom-right , .section-bottom-left{
+    height: 100%;
+   
+  }
+
+.carda-70{
+  height:70%;
 }
+
+.carda-30{
+  height:30%;
+}
+
+
 
 
 
